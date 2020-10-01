@@ -1,5 +1,5 @@
-fin = open("addin.txt","r")
-fout = open("addout.txt", "w")
+fin = open("addin.txt","s")
+fout = open("addout.txt", "t")
 
 x,y = map(int,fin.read().split(" "))
 z = x+y
